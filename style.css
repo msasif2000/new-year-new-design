@@ -52,27 +52,22 @@
 
 /* failure style */
 .fail {
+
     display: flex;
-    margin: 60px 100px;
+    margin: 20px 100px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 /* .fail img{
     width: 380px;
-   height: 500px;
-
+   height: 520px;
 
 } */
-.img-div {
-    background: rgba(241, 91, 34, 0.20);
-    border-radius: 100%;
-}
 
 .fail-title {
     width: 288px;
     flex-direction: column;
-    flex-shrink: 0;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
@@ -81,7 +76,7 @@
 .fail-desc {
     width: 416px;
     color: #444343;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     padding: 15px 0px;
 }
@@ -90,6 +85,7 @@
     list-style: none;
     color: #444343;
     align-items: center;
+    font-size: 17px;
 }
 
 .fa-check {
