@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+
+/* banner style */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/banner/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    padding-top: 216px;
+    padding-left: 50%;
+
+}
+
+.title {
+    width: 525px;
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner-desc {
+    display: flex;
+    width: 525px;
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.btn-contact{
+    width: 160px;
+    height: 64px;
+    background-color: #F15B22;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 53%;
+    cursor: pointer;
+}
+
+/* failure style */
+.fail{
+display: flex;
+margin:60px 100px;
+align-items: center;
+justify-content: space-evenly;
+}
+
+/* .fail img{
+    width: 380px;
+   height: 500px;
+
+
+} */
+.img-div{
+    background-color:rgba(241, 91, 34, 0.20);
+    border-radius:50%;
+}
+.fail-title{
+width: 288px;
+flex-direction: column;
+flex-shrink: 0;color:  #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.fail-desc{
+    width: 416px;
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+padding: 15px 0px;
+}
+.fail-content li{
+    list-style: none;
+    color:#444343;
+    align-items: center;
+}
+.fa-check{
+    color: #227cf1;
+}
+
+
+/* My plan style */
+.head{
+    color:  #151414;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+padding: 50px 0px;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plan img{
+    align-items: center;
+    width: 92px;
+    height: 92px;
+    justify-content: center;
+}
+.plan-title{
+    color:  #151414;
+font-size: 30px;
+font-weight: 700;
+margin-top:10px;
+}
+.plan-desc{
+    margin-top:10px;
+    color: #737272;
+font-size: 25px;
+font-weight: 500;
+}
+
+/* contact Style */
